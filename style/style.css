@@ -210,10 +210,13 @@ footer {
   background: white;
 }
 .center {
-    display: block;
+
     margin: auto;
+   display: block;
     width: 40%;
+    text-align: center;
 }
+
 
 /* images */
 /* xs */
@@ -385,8 +388,8 @@ hack asegurandonos de eso
 
 .movie-img img{
     display: block;
-    height: 220;
-    width: 210;
+    height: 220px;
+    width: 210px;
 }
 
 .movie-content {
