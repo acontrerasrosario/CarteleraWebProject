@@ -208,7 +208,11 @@ footer {
   padding: 2px 16px;
   background: white;
 }
-
+.center {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
 
 /* images */
 /* xs */
