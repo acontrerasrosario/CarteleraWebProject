@@ -170,8 +170,8 @@ footer {
     height: auto;
     display: block;
   }
-  .navbar ul li a:hover{
-    background-color: #111;
+  .navbar li a:hover {
+      background-color: #9E9E9E;
   }
 }
 
