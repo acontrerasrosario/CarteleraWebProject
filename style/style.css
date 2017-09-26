@@ -81,7 +81,8 @@ footer {
     height: 60px;
     position: relative;
     margin-top: -20px;
-   /* negative value of footer height */
+   /* valor negativo para que se mantenga
+   al fondo de la pagina */
     clear: both;
     padding: 2px 16px;
 }
@@ -135,7 +136,7 @@ footer {
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333;
+      background-color: #F44336;
   }
 
   .navbar li {
