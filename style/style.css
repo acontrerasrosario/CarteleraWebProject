@@ -8,7 +8,10 @@
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 
-
+html, body{
+    width:100%;
+    height:100%;
+}
 
 h1{
     text-align: justify;
@@ -84,7 +87,7 @@ footer {
    /* valor negativo para que se mantenga
    al fondo de la pagina */
     clear: both;
-    padding: 2px 16px;
+    padding: 2px 3px;
 }
 
 .body-content{
@@ -92,6 +95,9 @@ footer {
   padding-bottom: 20px;
 }
 /* START barra de navegacion */
+header, nav, .navbar{
+    width:100%;
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -183,6 +189,8 @@ footer {
   position: relative;
   width: 700px;
   height: 300px;
+  max-width:450px;
+  min-width:400px;
   background-color: black;
   border-radius: 15px;
 }
