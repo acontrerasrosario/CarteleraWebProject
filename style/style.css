@@ -233,6 +233,7 @@ footer {
   top: 93%;
   width: 100%;
   text-align: center;
+    margin-top:15px;
 }
 .punto {
   display: inline-block;
