@@ -220,6 +220,11 @@ footer {
 }
 .siguiente {
   left: 97%;
+  float:right;
+}
+.anterior {
+  right:97%;
+  float:left;
 }
 
 
