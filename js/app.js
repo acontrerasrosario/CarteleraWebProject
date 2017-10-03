@@ -75,22 +75,21 @@ var actual = 0;
 /*============================================================*/
 			// AboutUs Section
 			function openTab(evt, person) {
-			    // Declare all variables
+			    // Declarando variables
 			    var i, tabcontent, tablinks;
 
-			    // Get all elements with class="tabcontent" and hide them
+			    // Obtener cada uno de los valores que estan dentro del content y hace un display none
 			    tabcontent = document.getElementsByClassName("tabcontent");
 			    for (i = 0; i < tabcontent.length; i++) {
 			        tabcontent[i].style.display = "none";
 			    }
 
-			    // Get all elements with class="tablinks" and remove the class "active"
+			    // Obtener cada uno de los tablinks y remplaza el estilo de de activo a nada
 			    tablinks = document.getElementsByClassName("tablinks");
 			    for (i = 0; i < tablinks.length; i++) {
 			        tablinks[i].className = tablinks[i].className.replace(" active", "");
 			    }
-
-			    // Show the current tab, and add an "active" class to the button that opened the tab
+					// mostrar el tab actual, y agrega un estilo "activo" a la clase al boton que esta abierto.
 			    document.getElementById(person).style.display = "block";
 			    evt.currentTarget.className += " active";
 			}
