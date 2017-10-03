@@ -1,91 +1,196 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="./style/style.css">
-    <meta name="viewport" content="width=device-width, initial=scale=1.0" >
-    <meta charset="utf-8">
-    <title>Sobre Nosotros | Cine INTEC</title>
-  </head>
-  <body>
-    <header class="">
-      <nav class="navbar">
-        <ul>
-          <a class="navbar-logo"><span>Cine INTEC</span></a>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./estrenos.html">Estrenos</a></li>
-          <li><a href="./exhibiendose.html">Exhibiendose</a></li>
-          <li><a href="./proximamente.html">Proximamente</a></li>
-          <li><a href="./cines.html">Cines</a></li>
-          <li><a href="./aboutus.html">Sobre Nosotros</a></li>
-        </ul>
-      </nav>
-      <br>
-      <br>
-    </header>
 
-<div class="container">
-  <div class="grid-container">
-    <div class="row">
-      <h1>Desarrolladores de Cine INTEC</h1>
-    </div>
-    <div class="col-5">
+<head>
+  <link rel="stylesheet" href="./style/style.css">
+  <meta name="viewport" content="width=device-width, initial=scale=1.0">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="./js/app.js"></script>
 
-        <div class="row">
-        <div class="row">
-          <div class="col-3">
-            <div class="card">
-              <img src="./pictures/andrea.jpeg" style="width:100%" >
-              <div class="card-container">
-                <h2>Andrea Polanco</h2>
-                <p>1061971</p>
-              </div>
+  <title>Sobre Nosotros | Cine INTEC</title>
+</head>
+
+<body>
+  <header class="">
+    <nav class="navbar">
+      <ul>
+        <a class="navbar-logo"><span>Cine INTEC</span></a>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./estrenos.html">Estrenos</a></li>
+        <li><a href="./exhibiendose.html">Exhibiendose</a></li>
+        <li><a href="./proximamente.html">Proximamente</a></li>
+        <li><a href="./cines.html">Cines</a></li>
+        <li><a href="./aboutus.html">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+    <br>
+    <br>
+  </header>
+
+  <div class="container">
+    <div class="grid-container">
+      <div class="row">
+        <h1>Desarrolladores de Cine INTEC</h1>
+      </div>
+      <div class="row">
+        <div class="tab">
+          <button class="tablinks" id="defaultOpen" onclick="openTab(event, 'AP')">Andrea Polanco</button>
+          <button class="tablinks" onclick="openTab(event, 'AC')">Angel Contreras</button>
+          <button class="tablinks" onclick="openTab(event, 'AC1')">Adeury Camilo</button>
+          <button class="tablinks" onclick="openTab(event, 'CC')">Chamuel Castillo</button>
+
+        </div>
+
+        <div id="AP" class="tabcontent clearfix">
+          <h3>Andrea Polanco - [1061971]</h3>
+          <div class="col-2">
+            <div class="movie-img">
+              <img src="./pictures/andrea.jpeg" width="300px" height="3000px">
             </div>
           </div>
 
           <div class="col-3">
-            <div class="card">
-              <img src="./pictures/Adeury.jpg" style="width:100%" >
-              <div class="card-container">
-                <h2>Adeury Camilo</h2>
-                <p>1054567</p>
-              </div>
-            </div>
+            <p>
+              FA - BU - LO - SA
+            </p>
+          </div>
+          <div class="col-3">
+            <fieldset>
+              <legend>Contactame:</legend>
+              <form action="mailto:alpm9614@hotmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" name="name" id="name" /><br>
+
+                <label for="mail">Correo Electronico:</label><br>
+                <input type="text" name="mail" id="mail" /><br>
+                <label for="comment">Mensaje:</label><br>
+                <input type="text" name="comment" id="comment" size="50" /><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+              </form>
+            </fieldset>
+
           </div>
         </div>
-    </div>
-    <div class="col-1">
 
-    </div>
-<div class="row">
-  <div class="col-3">
-    <div class="card">
-      <img src="./pictures/Chamuel.jpg" style="width:100%" >
-      <div class="card-container">
-        <h2>Chamuel Castillo</h2>
-        <p>1058774</p>
+        <div id="AC" class="tabcontent clearfix">
+          <h3>Angel Contreras - [1061938]</h3>
+          <div class="col-2">
+
+            <div class="movie-img">
+              <img src="./pictures/emilio.jpg" width="300px" height="3000px">
+            </div>
+          </div>
+          <div class="col-3">
+            <p>
+              Joven de 20 años de edad, actualmente estudiante de termino de la carrera de <strong>Ingenier&iacute;a en Sistemas</strong> de intec,<br> se encuentra en su 13vo trimestre y tiene el sueño de poder realizar un mundo mejor con lo que es la
+              <strong>Inteligencia Artificial</strong>. <br> Desde muy pequeño se apasiona por las ciencias computacionales, pero mas que nada su mayor deseo es tener su propia empresa enfocada <br> a <strong>Machine Learning</strong>
+
+            </p>
+          </div>
+          <div class="col-3">
+            <fieldset>
+              <legend>Contactame:</legend>
+              <form action="mailto:acontrerasrosario@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" name="name" id="name"><br>
+
+                <label for="mail">Correo Electronico:</label><br>
+                <input type="text" name="mail" id="mail"><br>
+                <label for="comment">Mensaje:</label><br>
+                <input type="text" name="comment" id="comment" size="50"><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+              </form>
+            </fieldset>
+
+          </div>
+        </div>
+
+        <div id="AC1" class="tabcontent clearfix">
+          <h3>Adeury Camilo - [1054567]</h3>
+          <div class="col-2">
+
+            <div class="movie-img">
+              <img src="./pictures/Adeury.jpg" width="300px" height="3000px">
+            </div>
+          </div>
+          <div class="col-3">
+            <p>
+              Joven de 22 años de edad, actualmente estudiante de termino de la carrera de <strong>Ingenier&iacute;a en Software</strong> de intec,<br> se encuentra en su 13vo trimestre y tiene el sueño de se ingeniero en software. Desde muy pequeño se
+              apasiona por la musica,<br> le gusta tocar el bajo. Es parte del equipo de desarrollo de Cine intec y encargado de la parte de CCS <br>
+
+            </p>
+          </div>
+          <div class="col-3">
+            <fieldset>
+              <legend>Contactame:</legend>
+              <form action="mailto:adeury09@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" name="name" id="name"><br>
+
+                <label for="mail">Correo Electronico:</label><br>
+                <input type="text" name="mail" id="mail"><br>
+                <label for="comment">Mensaje:</label><br>
+                <input type="text" name="comment" id="comment" size="50"><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+              </form>
+            </fieldset>
+
+          </div>
+        </div>
+
+        <div id="CC" class="tabcontent clearfix">
+          <h3>Chamuel Castillo - [1058774]</h3>
+          <div class="col-2">
+
+            <div class="movie-img">
+              <img src="./pictures/Chamuel.jpg" width="300px" height="3000px">
+            </div>
+          </div>
+          <div class="col-3">
+            <p>
+              FA - BU - LO - SO
+
+            </p>
+          </div>
+          <div class="col-3">
+            <fieldset>
+              <legend>Contactame:</legend>
+              <form action="mailto:chamuel.castillo@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label><br>
+                <input type="text" name="name" id="name"><br>
+
+                <label for="mail">Correo Electronico:</label><br>
+                <input type="text" name="mail" id="mail"><br>
+                <label for="comment">Mensaje:</label><br>
+                <input type="text" name="comment" id="comment" size="50"><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+              </form>
+            </fieldset>
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <div class="col-3">
-    <div class="card">
-      <img src="./pictures/emilio.jpg" style="width:100%" >
-      <div class="card-container">
-        <h2>Angel Contreras</h2>
-        <p>1061938</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
     </div>
   </div>
-</div>
 
-<br>
-<br>
-<footer class="default-primary-color"><h4 class="text-primary-color">Copyrights by Grupo 5 | Electiva de desarrollo de aplicaciones WEB</h4></footer>
+  <br>
+  <br>
+  <footer class="default-primary-color">
+    <h4 class="text-primary-color">Copyrights by Grupo 5 | Electiva de desarrollo de aplicaciones WEB</h4></footer>
+  <script type="text/javascript">
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+</body>
 
-  </body>
 </html>
