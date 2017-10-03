@@ -38,4 +38,4 @@ var actual = 0;
 			}
 
 			var velocidad = 5000;
-			//var play = setInterval("siguiente()", velocidad);
+			var play = setInterval("siguiente()", velocidad);
