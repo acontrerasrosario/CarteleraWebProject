@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="./style/style.css">
     <meta name="viewport" content="width=device-width, initial=scale=1.0" >
     <meta charset="utf-8">
+    <script type="text/javascript" src="./js/app.js">
+
+    </script>
     <title>Inicio | Cine INTEC</title>
   </head>
   <body>
@@ -22,7 +25,34 @@
       <br>
       <br>
     </header>
-
+    <div id="slider" class="contenedor">
+        <div class="imagen actual">
+          <img src="https://www.supercartelera.com/HTTPS_IMAGEcache/imagenes_peliculas/419_the_hitmans_bodyguard_65843-130x178.png" alt="" style="width:100%"  >
+          <div class="texto"> <h5>The Histman's BodyGuards</h5>  </div>
+        </div>
+        <div class="imagen">
+          <img src="https://www.supercartelera.com/HTTPS_IMAGEcache/imagenes_peliculas/94_vico-c-130x178.png" alt="" style="width:100%" >
+          <div class="texto"><h5>Vico C: La vida del filosofo</h5></div>
+        </div>
+        <div class="imagen" >
+          <img src="https://www.supercartelera.com/HTTPS_IMAGEcache/imagenes_peliculas/262_El-Peor-Comediante-del-Mundo-130x178.png" alt="" style="width:100%">
+          <div class="texto"><h5>El peor comediante del mundo</h5></div>
+        </div>
+        <div class="imagen">
+          <img src="https://www.supercartelera.com/HTTPS_IMAGEcache/imagenes_peliculas/658_atomic_blonde_65965-130x178.png" alt="" style="width:100%">
+          <div class="texto"> <h5>Atomic Blonde</h5> </div>
+        </div>
+        <a href="#" class="anterior" onclick="anterior();">&#10094;</a>
+			  <a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+        <br>
+        <br>
+  			<div class="puntos">
+  				<span class="punto activo" onclick="mostrar(0);"></span>
+  				<span class="punto" onclick="mostrar(1);"></span>
+  				<span class="punto" onclick="mostrar(2);"></span>
+  				<span class="punto" onclick="mostrar(3);"></span>
+  			</div>
+    </div>
 
 <div class="body-content">
   <div class="container">
